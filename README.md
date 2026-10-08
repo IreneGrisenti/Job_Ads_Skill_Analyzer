@@ -2,7 +2,7 @@
 This project aims at extracting skills from swedish job postings for the occupation group classified as SSYK 2511 (Systemanalytiker och IT-arkitekter m.fl.).
 
 ## Data
-This project combines two datasets from Arbetsförmedlingen: a collection of unpublished job ads and a taxonomy of skills.
+This project combines three datasets from Arbetsförmedlingen: a collection of active job ads, a collection of unpublished job ads and a taxonomy of skills.
 In Arbetsförmedlingen's taxonomy every occupation group has a concept ID, and the ID for 2511 is UXKZ_3zZ_ipB.
 
 ### Active job ads
