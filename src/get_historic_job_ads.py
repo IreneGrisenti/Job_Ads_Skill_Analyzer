@@ -1,5 +1,5 @@
 """
-Download job ads for SSYK 2511 (Systemanalytiker och IT-arkitekter) from the JobTech historical API and save a trimmed version to JSON.
+Download job ads for SSYK 2511 (Systemanalytiker och IT-arkitekter) from the JobTechDev historical API and save a trimmed version to JSON.
 """
 
 import json
