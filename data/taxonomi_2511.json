@@ -1,0 +1,1430 @@
+[
+  {
+    "skill_id": "13ad_dCC_Tn6",
+    "skill": "OOS, styr- och utvecklingsmodell",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "16ZN_3Zp_bYV",
+    "skill": "Odoo, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "19PK_uxU_Wzy",
+    "skill": "Bower, pakethanterare",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "1CmG_8hR_igc",
+    "skill": "Bluetooth-teknik",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "1QYQ_Xka_TQ5",
+    "skill": "Microsoft Autopilot, systemutvecklingsverktyg",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "2CXh_FUJ_vTH",
+    "skill": "Office SharePoint Server (MOSS), applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "2rqG_WLp_em4",
+    "skill": "Ledningssystem (ISO 9000-serien)",
+    "headlines": [
+      "Kvalitetssystem"
+    ]
+  },
+  {
+    "skill_id": "2vCi_hQz_Y9o",
+    "skill": "WAP-teknik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "39C3_4Tm_3ud",
+    "skill": "Asset Information Management",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "3H7m_pt8_7b2",
+    "skill": "HTTP/HTTPS, kommunikationsprotokoll",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "3JPR_oR7_UUS",
+    "skill": "Sun Java Enterprise System, webbserverprogram",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "3KME_Qwm_D4V",
+    "skill": "IBM Integration Bus",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "3nRt_vck_Jrv",
+    "skill": "Elixir, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "44NU_bjv_f3M",
+    "skill": "OOAD, objektorienterad analys och design",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "49fH_K3e_Fbm",
+    "skill": "AZ-900: Microsoft Azure Fundamentals",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "4Dqo_LPf_qrU",
+    "skill": "Web Content Accessibility Guidelines/WCAG",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "4f1v_w91_qVM",
+    "skill": "Systemförvaltning",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "4ob7_R6h_HDi",
+    "skill": "Glassfish Server, applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "4xND_QRk_GnJ",
+    "skill": "Visual Studio, integrerad utvecklingsmiljö",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "56NM_uHB_3am",
+    "skill": "Cybersäkerhet, nätverk",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "5JPR_Q9S_FEg",
+    "skill": "Citrix, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "5JuE_fKM_Bqn",
+    "skill": "Informationsmodellering",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "5Vk5_FW2_ceH",
+    "skill": "Grafiska gränssnitt/GUI",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "5q4a_wi4_WYk",
+    "skill": "Molnteknik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "67V1_6cE_VAt",
+    "skill": "SCCM, systemutvecklingsverktyg",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "6Npn_22J_DRb",
+    "skill": "CoffeeScript, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "6PiD_AjD_4a3",
+    "skill": "Nätverksteknik",
+    "headlines": [
+      "Nätverk"
+    ]
+  },
+  {
+    "skill_id": "7CKh_sp1_oFE",
+    "skill": "Praktisk ProjektStyrning/PPS",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "7Ycu_EKz_oMw",
+    "skill": "Logic, styr- och utvecklingsmodell",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "7dWf_wrk_JyK",
+    "skill": "Oracle Certified Professional/OCP",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "7jZm_JYL_vUp",
+    "skill": "Software AG WebMethods, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "7pQ1_pc6_qRD",
+    "skill": "Datalog, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "85vp_6Vr_4N1",
+    "skill": "UNIX, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "8LSU_rzr_FLy",
+    "skill": "Enterprise JavaBeans, ramverk/EJB, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "8Qjp_Myj_xnv",
+    "skill": "Local Interconnect Network, LIN",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "9RCg_jK7_FDh",
+    "skill": "TIBCO, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "9ebc_4R5_S9m",
+    "skill": "RUP, utvecklingsprocessbeskrivning",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "AfJ4_Pvv_YBa",
+    "skill": "Webbutveckling",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "AmxT_cNc_DVH",
+    "skill": "3G-teknik",
+    "headlines": [
+      "Mobiltelefonsystem"
+    ]
+  },
+  {
+    "skill_id": "BPMn_5Fu_z9m",
+    "skill": "Weblogic Server, applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "C69V_W4p_i5E",
+    "skill": "Vagrant, miljökonfigurering",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "CWfM_RL9_V4t",
+    "skill": "Geografiskt informationssystem/GIS",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "Cnqu_REg_6jo",
+    "skill": "Scrum, systemutvecklingsmetod",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "CtvK_s26_dNs",
+    "skill": "SVEA, styr- och utvecklingsmodell",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "DKZ6_8AL_nna",
+    "skill": "IBM Cloud, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "DL93_n1W_VFP",
+    "skill": "Google Cloud Platform, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "DWfb_eQD_E3r",
+    "skill": "AZ-204: Developing Solutions for Microsoft Azure",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "Dcwz_P8s_kiQ",
+    "skill": "Visual Studio Code, integrerad utvecklingsmiljö",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "EBbR_omM_nLd",
+    "skill": "Oracle NetSuite, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "EePT_YP4_E1S",
+    "skill": "IBM WebSphere, applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "FF7J_C37_2L3",
+    "skill": "LINQ, frågespråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "FMCc_D34_aWV",
+    "skill": "MB-600: Microsoft Dynamics 365   Power Platform Solution Architect",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "FnSC_ojS_LgV",
+    "skill": "Oracle Fusion Middleware, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "G4sF_xod_zoq",
+    "skill": "Windows, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "G7Qq_r7L_5Jo",
+    "skill": "Verksamhetsanalys",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "G7so_7Ax_7dW",
+    "skill": "Länkad data",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "GRfY_oZH_D9E",
+    "skill": "RFID-teknik",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "Gt5f_wdi_FSJ",
+    "skill": "Budgetansvar",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "HFbY_VZ4_iAh",
+    "skill": "Databasdesign",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "HKgZ_SWa_vn8",
+    "skill": "Windows Azure, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "HQJ2_68A_AiZ",
+    "skill": "TCP/IP, kommunikationsprotokoll",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "Hg5q_Rqp_uZw",
+    "skill": "Grunt, systemutvecklingsverktyg",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "Jenn_CDz_spm",
+    "skill": "API-design",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "K343_BJR_mAR",
+    "skill": "Oracle Certified Database Administrator",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "KAVh_Qyx_GPu",
+    "skill": "SOAP, kommunikationsprotokoll",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "KNYZ_p95_rpr",
+    "skill": "Masterdata",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "KRDJ_nhm_wLb",
+    "skill": "Amazon Web Services (AWS), molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "LLQd_jDh_gdd",
+    "skill": "Förändringsledning",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "LZBg_ARY_3qS",
+    "skill": "Windows Server, applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "LeES_iac_1Qx",
+    "skill": "Solaris, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "LyCZ_7mm_9VW",
+    "skill": "Microsoft Certified: Azure Administrator Associate",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "MD7y_HEd_aEE",
+    "skill": "BlackBerry, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "MT1a_Nyq_DGQ",
+    "skill": "Automationsteknik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "McKJ_SG4_hCM",
+    "skill": "Node, exekveringsmiljö",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "Mj5b_25Q_Scv",
+    "skill": "Systemutredning",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "N8Tu_Tsn_2VD",
+    "skill": "Ubuntu, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "NGG7_yiy_7f9",
+    "skill": "MVS, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "NnaR_bCQ_hK1",
+    "skill": "VxWorks, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "Np6W_aQg_Rkn",
+    "skill": "Object Component Model/COM",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "Pk2j_jXV_Y3j",
+    "skill": "Projektledning, IT",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "Qz5P_xtY_tzd",
+    "skill": "Apache Tomcat, webbserverprogram",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "RHQG_2uA_vKR",
+    "skill": "Eclipselink, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "RMG2_TS5_Mnp",
+    "skill": "Medieteknik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "SaTd_K5z_ex1",
+    "skill": "Artificial Intelligence/Artificiell intelligens/AI",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "SnKF_v7d_qUH",
+    "skill": "Windows Powershell, systemutvecklingsverktyg",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "SpT2_3to_SxQ",
+    "skill": "Entity Framework Core, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "Ss2A_BH7_YrK",
+    "skill": "Systemintegrering",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "T4Fs_ix5_kkv",
+    "skill": "IBM MQ",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "TDHT_hrW_PPQ",
+    "skill": "Prediktiv analys",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "THRW_ZVA_iBc",
+    "skill": "Objektorienterad metodik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "TMVb_DnH_etF",
+    "skill": "Agila arbetsmetoder",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "TUg4_3hv_1iJ",
+    "skill": "Blockkedjeteknik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "U5pM_1wB_8nc",
+    "skill": "Parallell programmering",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "UGqj_u6c_Tog",
+    "skill": "Microsoft Biztalk, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "UJcF_SrQ_Jvw",
+    "skill": "ERP-system, erfarenhet",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "USj9_RR6_Q1z",
+    "skill": "TypeScript, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "Uob5_C6Z_q6m",
+    "skill": "Informationsarkitektur",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "UqgU_JAJ_Vhg",
+    "skill": "MDX, frågespråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "Utw1_tLL_sS2",
+    "skill": "Kravhantering, systemutveckling",
+    "headlines": [
+      "Allmänna datakunskaper"
+    ]
+  },
+  {
+    "skill_id": "VLaA_on6_CMq",
+    "skill": "OpenUP, utvecklingsmodell",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "VTPj_uC5_NPS",
+    "skill": "Dos, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "VYpX_5pE_eSz",
+    "skill": "JPA, Java Persistence API, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "Vr6A_uKB_a5E",
+    "skill": "Dart, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "W4Ud_Do3_B6S",
+    "skill": "Ethics, styr- och utvecklingsmodell",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "W4er_Syp_Wrt",
+    "skill": "Kvalitetskontrollsystem, erfarenhet",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "WQdS_Jtu_qPC",
+    "skill": "Android, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "WzP2_nW8_gXH",
+    "skill": "Configuration Management/CM",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "XEhm_7YA_qKM",
+    "skill": "Machine learning/Maskininlärning",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "XZs8_QZL_VwL",
+    "skill": "Oracle Data Integrator, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "Xccn_uJ5_tFL",
+    "skill": "Infor, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "XuRf_F2y_Vcq",
+    "skill": "Software AG Integration Suite, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "Y4fa_2ye_bPB",
+    "skill": "R, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "YLwx_pBc_LKV",
+    "skill": "OpenJPA, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "YPFx_KXB_ZAA",
+    "skill": "PHP Developer Certification",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "YpFB_2Qq_uwS",
+    "skill": "JBoss Application Server, applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "ZFcE_Ti2_A5c",
+    "skill": "LDAP, frågespråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "ZNwx_7vr_Sg4",
+    "skill": "Vyper, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "Zd17_7XH_myf",
+    "skill": "OS/390, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "ZipR_ckJ_YQC",
+    "skill": "Docker, container-plattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "ZxHj_Wvj_39H",
+    "skill": "VM/CMS, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "aB7G_VwT_AfU",
+    "skill": "Microsoft Certified System Engineer/MCSE",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "abgV_e4C_gwj",
+    "skill": "pm3, förvaltningsmodell",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "b8Yk_S7p_Nc7",
+    "skill": "Clojurescript, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "bCPt_NW1_v2o",
+    "skill": "GNU, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "bHSo_36W_Y7K",
+    "skill": "Unified Modeling Language, modelleringsspråk",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "bKM3_9g1_WWC",
+    "skill": "VMS, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "bq5g_QZW_eyR",
+    "skill": "Java Server Pages (JSP), programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "bre7_QmH_U8U",
+    "skill": "IIS, webbserverprogram",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "c6uA_XkH_gpt",
+    "skill": "Microsoft Intune, systemutvecklingsverktyg",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "cH7n_Y7S_UP4",
+    "skill": "Oracle JCAPS, applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "cScr_7z5_gAg",
+    "skill": "XML Web Services",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "cZe5_zc1_v8j",
+    "skill": "CASE-verktyg",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "d7GK_rmt_4FC",
+    "skill": "Informationsstrategi",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "dLbU_k7F_Ldu",
+    "skill": "IP-telefoniteknik",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "e7RS_x1a_Zwf",
+    "skill": "Oracle Service Bus, integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "eTW8_AY5_tpe",
+    "skill": "Scaled Agile Framework, SAFe",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "eV3w_T4x_wEZ",
+    "skill": "Microsoft Certified Database Administrator/MCDBA",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "ebrf_1Fe_ksC",
+    "skill": "5G-teknik",
+    "headlines": [
+      "Mobiltelefonsystem"
+    ]
+  },
+  {
+    "skill_id": "egj8_qhY_1bN",
+    "skill": "Hadoop, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "fKFs_dcv_ovN",
+    "skill": "Datawarehouse",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "fgjD_L8Y_Ja1",
+    "skill": "Microsoft Dynamics 365, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "gcpR_1RA_k1H",
+    "skill": "ISAC, styr- och utvecklingsmodell",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "gtoY_Bwt_23m",
+    "skill": "IR-teknik",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "hL3z_i7Y_9mr",
+    "skill": "Certified JavaScript Developer",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "hU3K_vj2_1tK",
+    "skill": "XQuery, frågespråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "hYyY_NPi_H65",
+    "skill": "Apache Kafka, streaming-plattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "hfRX_1xN_X8Z",
+    "skill": "A+, hårdvarucertifikat",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "i2z8_u7i_U9U",
+    "skill": "SPARQL, frågespråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "iGBs_5FQ_Kk9",
+    "skill": "SAP, applikationsplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "iTPC_xzQ_NjM",
+    "skill": "Nätverksdesign",
+    "headlines": [
+      "Nätverk"
+    ]
+  },
+  {
+    "skill_id": "idYc_Nc2_oYB",
+    "skill": "Corba, distribuerad objektteknik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "ifWk_o4W_Gir",
+    "skill": "OCaml, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "igAK_9XZ_E2a",
+    "skill": "pSOS, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "j3wL_CdZ_Rz6",
+    "skill": "IANA/ICANN, bestämmelser och rekommendationer",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "jTYU_TTp_4iW",
+    "skill": "REST",
+    "headlines": [
+      "Kommunikationsprotokoll"
+    ]
+  },
+  {
+    "skill_id": "jjkC_sJJ_ZT3",
+    "skill": "Design Thinking",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "juME_7Ek_CBR",
+    "skill": "Microsoft 365 Certified: Fundamentals",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "kJyW_TcC_r2e",
+    "skill": "Tjänsteorienterande arkitektur/SOA",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "kU8H_M22_NtX",
+    "skill": "Rational Rose, modelleringsverktyg",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "kraG_fcm_3Mo",
+    "skill": "Felsökningsverktyg, IT",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "kzZC_1vp_8U3",
+    "skill": "N1QL, frågespråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "mDJ4_Hqs_cen",
+    "skill": "Distribuerad objektteknik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "mPE9_cBb_5ua",
+    "skill": "Säkerhetsanalys, datasäkerhet",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "mYLj_nHM_zSE",
+    "skill": "Salesforce Cloud, molnplattform",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "muKv_rHW_7ES",
+    "skill": "Testautomatisering/Test automation",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "nD8v_y8P_Gi3",
+    "skill": "Toplink, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "nau9_s74_1oe",
+    "skill": "Människa-datorinteraktion/MDI",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "nf2k_RuW_WEC",
+    "skill": "Oracle Certified Associate",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "nhXC_MeA_vzi",
+    "skill": "VSE, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "oRCp_wLd_dWd",
+    "skill": "OS/400, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "ofcY_XXh_G4k",
+    "skill": "Telematik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "oisM_5jo_EVb",
+    "skill": "IBM Domino, webbserverprogram",
+    "headlines": [
+      "Applikationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "pPbn_WWG_Wn8",
+    "skill": "4G-teknik",
+    "headlines": [
+      "Mobiltelefonsystem"
+    ]
+  },
+  {
+    "skill_id": "pR2V_H8A_TGg",
+    "skill": "Hibernate, ramverk/Java, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "pWTc_PxX_xX6",
+    "skill": "JCL, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "pYJh_yqM_cfy",
+    "skill": "Windows för mobila enheter",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "pnX9_gFn_CLt",
+    "skill": "Windows Server, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "pwNB_ces_8hN",
+    "skill": "DM, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "pz6a_ZgP_ePX",
+    "skill": "Model-view-viewmodel (MVVM)",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "q76x_Dbx_vqr",
+    "skill": "Informatik",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "qVjQ_w6H_dns",
+    "skill": "Mac OS X, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "qktt_D6R_UnN",
+    "skill": "ASP.NET Core, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "rA3m_fps_z3i",
+    "skill": "Associate Android Developer, certifikat",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "rCUw_LmP_ngK",
+    "skill": "Oracle Certified Database Operator/DBO",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "rdQ2_dyF_8J8",
+    "skill": "Microsoft Certified Professional/MCP",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "s9Ys_tMu_iKM",
+    "skill": "Microsoft Certified Application Developer/MCAD",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "sPhy_WnE_1Xd",
+    "skill": "OSE, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "sQgp_BKY_n43",
+    "skill": "Öppen källkod/Open Source, utvecklingsmodell",
+    "headlines": [
+      "Styr- och utvecklingsmodeller"
+    ]
+  },
+  {
+    "skill_id": "t78J_nRk_xGn",
+    "skill": "IOS, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "uR9q_DNx_eWm",
+    "skill": "LSE, texteditor",
+    "headlines": [
+      "Programmerings- och systemutvecklingsverktyg"
+    ]
+  },
+  {
+    "skill_id": "uyQC_ML2_BpY",
+    "skill": "Microsoft Certified Solution Developer/MCSD",
+    "headlines": [
+      "Certifikat/licenser"
+    ]
+  },
+  {
+    "skill_id": "vzMh_qW9_hHg",
+    "skill": "Web Accessibility Initiative/WAI",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "wFXj_Qjg_eK5",
+    "skill": "ASP.NET MVC, ramverk",
+    "headlines": [
+      "Ramverk"
+    ]
+  },
+  {
+    "skill_id": "wUMC_s8f_Tmb",
+    "skill": "JBoss Enterprise Middleware Suite (JEMS), integrationsplattform",
+    "headlines": [
+      "Integrationsplattformar"
+    ]
+  },
+  {
+    "skill_id": "wynY_a5Q_F6t",
+    "skill": "IT-konsultuppdrag, erfarenhet",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "xKTb_Ger_HCf",
+    "skill": "Dataskyddsförordningen/GDPR, erfarenhet",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "xwT1_oxn_Dwq",
+    "skill": "PROPS, projektstyrningsmodell",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "yXg3_YoW_xeC",
+    "skill": "Clojure, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "yZ2z_nLc_9aY",
+    "skill": "Datamodellering",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  },
+  {
+    "skill_id": "ybWy_iuU_971",
+    "skill": "PowerScript, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "z3Ln_9aJ_DqN",
+    "skill": "OpenEdge Advanced Business Language, programmeringsspråk",
+    "headlines": [
+      "Datorspråk"
+    ]
+  },
+  {
+    "skill_id": "z52H_f4y_4ZA",
+    "skill": "Linux, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "zU9b_joy_UL6",
+    "skill": "IRIX, operativsystem",
+    "headlines": [
+      "Operativsystem"
+    ]
+  },
+  {
+    "skill_id": "zepK_dRd_cwN",
+    "skill": "Interaktionsdesign",
+    "headlines": [
+      "Övriga kompetenser"
+    ]
+  }
+]
