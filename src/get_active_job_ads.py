@@ -58,7 +58,7 @@ def fetch_ads(start: date, end: date) -> list[dict]:
 def trim(ad: dict) -> dict:
     """Keep only the fields I need."""
     return {
-        "id": ad["original_id"],
+        "id": ad["id"],
         "title": ad.get("headline"),
         "employer": (ad.get("employer") or {}).get("name"),
         "municipality": (ad.get("workplace_address") or {}).get("municipality"),
