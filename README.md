@@ -52,9 +52,10 @@ Packages: NumPy, Pandas, Jupyter (see `requirements.txt`)
 ```text
 Job_Ads_Skill_Analyzer/
 ├── data/
-│   ├──s kills_2511.json   
+│   ├── kills_2511.json   
 ├── notebooks/00  
 │   ├── 01_exploration.ipynb
+│   ├── 02_cleaning.ipynb
 ├── src/  
 │   ├── get_active_job_ads.py  
 │   ├── get_historic_job_ads.py  
