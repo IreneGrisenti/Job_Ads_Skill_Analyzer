@@ -56,6 +56,8 @@ Job_Ads_Skill_Analyzer/
 ├── notebooks/00  
 │   ├── 01_exploration.ipynb
 │   ├── 02_cleaning.ipynb
+│   ├── 03_test_set_extraction.ipynb
+│   ├── 04_baseline.ipynb
 ├── src/  
 │   ├── get_active_job_ads.py  
 │   ├── get_historic_job_ads.py  
