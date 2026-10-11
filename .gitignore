@@ -1,6 +1,8 @@
 raw_historic_ads_2511.json
 raw_active_ads_2511.json
 clean_ads.json
+test_set.json
+train_set.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
