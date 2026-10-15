@@ -22,10 +22,14 @@ In Arbetsförmedlingen's taxonomy every occupation group has a concept ID, and t
 Only the group with concept id `UXKZ_3zZ_ipB` (SSYK 2511) is kept, this is the same id that the ads carry in `occupation_group.concept_id`  
 **Retrieved on:** 2026-10-08
 
+### Labelled dataset
+In order to evaluate the results of the models, I created a hand labelled small test set. I used Studio Label to annotate the hard skill. The definition of what a hard skill is in this project is: *specific, teachable and measurable technical abilities required to perform job-related tasks, such as coding, data analysis, or cloud infrastructure management*. 
+
 ### Reproducing the data
 Run the two scripts from the project root.
 
 ```python
+python src/get_active_job_ads.py
 python src/get_historic_job_ads.py
 python src/get_skills.py
 ```
@@ -40,27 +44,33 @@ Create and activate a virtual environment:
 `source .venv/bin/activate` (for macOS/Linux) or `.venv\Scripts\Activate` (for Windows PowerShell)  
 
 Install dependencies:  
-`python -m pip install -r requirements.txt`  
+`python -m pip install -e .`  
 
 
 ## Environment  
 Python 3.13.7  
-Packages: NumPy, Pandas, Jupyter (see `requirements.txt`)  
+Packages: NumPy, Pandas, Jupyter (see `pyproject.toml`)  
 
 ## Project structure
 
 ```text
 Job_Ads_Skill_Analyzer/
 ├── data/
-│   ├── kills_2511.json   
+│   ├── kills_2511.json
+│   └── labelled_test_set
 ├── notebooks/00  
 │   ├── 01_exploration.ipynb
 │   ├── 02_cleaning.ipynb
 │   ├── 03_test_set_extraction.ipynb
 │   ├── 04_baseline.ipynb
+│   ├── 05 entity ruler
+│   └── 06 evaluation
 ├── src/  
-│   ├── get_active_job_ads.py  
+│   ├── evaluation.py 
+│   ├── get_active_job_ads.py   
 │   ├── get_historic_job_ads.py  
-│   └── get_skills.py
+│   ├── get_skills.py  
+│   ├── models.py  
+│   └── skills.py
 └── README.md
 ```
