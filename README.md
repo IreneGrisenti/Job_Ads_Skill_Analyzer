@@ -49,7 +49,7 @@ Install dependencies:
 
 ## Environment  
 Python 3.13.7  
-Packages: NumPy, Pandas, Jupyter (see `pyproject.toml`)  
+Packages: NumPy, Pandas, Jupyter, Spacy (see `pyproject.toml`)  
 
 ## Project structure
 

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skills-extraction"
+version = "0.1.0"
+description = "Extracts IT skills from job ads using dictionary matching and a spaCy entity ruler"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1",
+    "spacy>=3.8",
+    "pandas>=3.0",
+    "numpy>=2.5",
+    "requests>=2.34",
+    "langdetect>=1.0",
+]
+
+[tool.setuptools]
+packages = ["src"]
