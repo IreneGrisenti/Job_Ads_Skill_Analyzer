@@ -5,9 +5,7 @@
 
 TIER1_PHRASES = [
     "Kravhantering",
-    "Systemanalys",  # New
     "Systemarkitektur",  # New
-    "Systemintegration",  # New
     "Verksamhetsutveckling",  # New
     "Cybersäkerhet",  # New
     "Oracle SOA Suite",  # New
@@ -59,22 +57,18 @@ TIER1_PHRASES = [
     "OpenJPA",
     "Toplink",
     "Amazon Linux",  # New
-    "Android",
     "Arch Linux",  # New
-    "BlackBerry",
     "FreeBSD",  # New
     "Gentoo Linux",  # New
     "Kali Linux",  # New
     "Mac OS X",
-    "NetBSD",  # New
     "openEuler",  # New
     "Oracle Linux",  # New
+    "BlackBerry",
     "OS/390",
     "OS/400",
-    "Raspberry Pi OS",  # New
     "Rocky Linux",  # New
     "Datawarehouse",
-    "Digitalisering",  # New
     "Git",  # New
     "Informationsmodellering",
     "Informationsstrategi",
@@ -84,11 +78,7 @@ TIER1_PHRASES = [
     "Ubuntu",
     "Scrum",
     "DevOps",
-    "OS/390",
-    "BlackBerry",
-    "FreeBSD",
-    "Mac OS X",
-    "OS/400",
+    "ArchiMate",
 ]
 
 
@@ -129,13 +119,7 @@ TIER2_EXACT_CASE = {
     "IRIX": ["IRIX"],
     "JCL": ["JCL"],
     "MVS": ["MVS"],
-    "NixOS": ["NixOS"],  # New
-    "OSE": ["OSE"],
-    "pSOS": ["pSOS"],
-    "VM/CMS": ["VM/CMS"],
-    "VMS": ["VMS"],
     "VSE": ["VSE"],
-    "OSL": ["OSL"],
     "TCP/IP": ["TCP/IP"],
     "HTTP/HTTPS": ["HTTP", "HTTPS", "HTTP/HTTPS"],
     "ISO/IEC 25010": ["ISO/IEC 25010"],
@@ -330,7 +314,7 @@ TIER3_CUSTOM = {
         ],
     },  # New
     "Windows Azure": {
-        "any_case": ["Microsoft Azure", "Windows Azure"],
+        "any_case": ["Microsoft Azure", "Windows Azure", "Azure"],
     },
     "Google Cloud Platform": {
         "any_case": ["Google Cloud", "Google Cloud Platform"],
@@ -623,7 +607,7 @@ TIER3_CUSTOM = {
         "any_case": ["NetBSD", "Net BSD", "Net-BSD"],
     },
     "NixOS": {
-        "any_case": ["Nix OS", "Nix-OS", "Nix operating system"],
+        "any_case": ["NixOs", "Nix OS", "Nix-OS", "Nix operating system"],
     },
     "Operating System Embedded (OSE)": {
         "any_case": [
@@ -734,7 +718,6 @@ TIER3_CUSTOM = {
             "Distributed Ledger Technology (DLT)",
             "blockchain",
             "distributed ledger technology",
-            "DLT",
         ],
         "exact_case": ["DLT"],
     },
@@ -784,11 +767,10 @@ TIER3_CUSTOM = {
         "exact_case": ["GDPR"],
     },
     "Digitalisering": {
-        "any_case": ["Digitalisering", "Digital transformation"],
+        "any_case": ["Digitalisation", "Digitalisering", "Digital transformation"],
     },
-    "Dokumentation": {
+    "Technical dokumentation": {
         "any_case": [
-            "Documentation",
             "Teknisk dokumentation",
             "Technical documentation",
         ],
@@ -855,7 +837,6 @@ TIER3_CUSTOM = {
     "Information Architecture": {
         "any_case": [
             "information architecture",
-            "information architecture",
             "informationsarkitektur",
         ],
         "exact_case": ["IA"],
@@ -921,14 +902,6 @@ TIER3_CUSTOM = {
             "molnlösningar",
             "molninfrastruktur",
         ],
-    },
-    "Object-oriented methodology": {
-        "any_case": [
-            "Objektorienterad metodik",
-            "object-oriented methodology",
-            "object-oriented design",
-        ],
-        "exact_case": ["OOAD"],
     },
     "Offentlighets- och sekretesslagen (OSL)": {
         "any_case": [
@@ -1009,7 +982,7 @@ TIER3_CUSTOM = {
     },
     "System integreration": {
         "any_case": [
-            "Systemintegrering",
+            "Systemintegration",
             "system integration",
             "integration of systems",
             "integrationslösningar",
@@ -1018,6 +991,7 @@ TIER3_CUSTOM = {
     "System analysis": {
         "any_case": [
             "Systemutredning",
+            "Systemanalys",
             "systems analysis",
             "system investigation",
         ],
@@ -1045,7 +1019,6 @@ TIER3_CUSTOM = {
             "business analysis",
             "analys av verksamhetsprocesser",
         ],
-        "exact_case": ["BA"],
     },
     "Wireless Application Protocol (WAP)": {
         "any_case": [
