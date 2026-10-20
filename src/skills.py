@@ -4,7 +4,6 @@
 # Taxonomy labels, copied as-is.
 
 TIER1_PHRASES = [
-    "Kravhantering",
     "Systemarkitektur",  # New
     "Verksamhetsutveckling",  # New
     "Cybersäkerhet",  # New
@@ -79,6 +78,32 @@ TIER1_PHRASES = [
     "Scrum",
     "DevOps",
     "ArchiMate",
+    # added after validation
+    "Snowflake",
+    "Terraform",
+    "Microsoft Fabric",
+    "Lakehouse",
+    "Dataverse",
+    "Dagster",
+    "Ansible",
+    "LangSmith",
+    "Ragas",
+    "LlamaIndex",
+    "LangChain",
+    "Simulink",
+    "Kerberos",
+    "Fiori",
+    "DP-600",
+    "DP-700",
+    "Output management",
+    "Data storytelling",
+    "Systemutveckling",
+    "Systemdesign",
+    "Kravarbete",
+    "Integrationer",
+    "Federation",
+    "SAP-miljöer",
+    "SAP-transaktioner",
 ]
 
 
@@ -129,6 +154,18 @@ TIER2_EXACT_CASE = {
     "3G": ["3G"],
     "4G": ["4G"],
     "5G": ["5G"],
+    # added after validation
+    "API": ["API", "APIs"],
+    "DOORS": ["DOORS"],
+    "SAML": ["SAML"],
+    "SCIM": ["SCIM"],
+    "PKI": ["PKI"],
+    "LDAP": ["LDAP"],
+    "OAuth": ["OAuth", "OAUTH"],
+    "SysML": ["SysML"],
+    "Hex": ["Hex"],
+    "BTP": ["BTP"],
+    "aATP": ["aATP"],
 }
 
 
@@ -681,14 +718,6 @@ TIER3_CUSTOM = {
             "Agile method",
         ],
     },
-    "API-design": {
-        "any_case": [
-            "API design",
-            "design av API:er",
-            "REST API design",
-        ],
-        "exact_case": ["API"],
-    },
     "Artificial Intelligence": {
         "any_case": [
             "Artificiell intelligens",
@@ -1049,5 +1078,150 @@ TIER3_CUSTOM = {
             "backend development",
             "utveckling av webbapplikationer",
         ],
+    },
+    # added after validation
+    "Microsoft 365": {
+        "any_case": [
+            "Microsoft 365",
+            "Office 365",
+            "M365 technologies",
+        ],
+        "exact_case": ["M365"],
+    },
+    "Entra ID": {
+        "any_case": [
+            "Entra ID",
+            "Azure AD",
+            "Azure Active Directory",
+        ],
+    },
+    "Kravhantering": {
+        "any_case": [
+            "Kravhantering",
+            "Kravanalys",
+            "säkerhetskrav",
+            "kravnedbrytning",
+            "kravhanteringsverktyg",
+        ]
+    },
+    "Power Platform": {
+        "any_case": ["Power Platform", "Microsoft Power Platform"],
+        "exact_case": [],
+    },
+    "D365 F&O": {
+        "any_case": [
+            "D365 F&O",
+            "D365 Finance & Operations",
+            "D365 Finance and Operations",
+            "Dynamics 365 Finance and Operations",
+        ],
+        "exact_case": ["D365FO"],
+    },
+    "Active Directory": {
+        "any_case": ["Active Directory", "Active Directory (AD)"],
+        "exact_case": ["AD"],  # risky, short and ambiguous
+    },
+    "Graph API": {
+        "any_case": ["Graph API", "Microsoft Graph API", "Microsoft Graph"],
+        "exact_case": [],
+    },
+    "Teams": {
+        "any_case": ["Microsoft Teams", "MS Teams"],
+        "exact_case": ["Teams"],
+    },
+    "PnP (Patterns and Practices)": {
+        "any_case": [
+            "PnP (Patterns and Practices)",
+            "Patterns and Practices",
+            "Patterns & Practices",
+        ],
+        "exact_case": ["PnP"],
+    },
+    "CDC": {
+        "any_case": ["Change Data Capture"],
+        "exact_case": ["CDC"],
+    },
+    "PubSub": {
+        "any_case": ["PubSub", "Pub/Sub", "Google Pub/Sub"],
+        "exact_case": [],
+    },
+    "Identity and Access Management (IAM)": {
+        "any_case": [
+            "Identity and Access Management (IAM)",
+            "Identity and Access Management",
+            "Identity & Access Management",
+        ],
+        "exact_case": ["IAM"],
+    },
+    "IAM platforms": {
+        "any_case": ["IAM platforms", "IAM platform", "IAM-plattformar"],
+        "exact_case": [],
+    },
+    "AI & LLM Engineering": {
+        "any_case": ["AI & LLM Engineering", "LLM Engineering"],
+        "exact_case": [],
+    },
+    "LLM Orchestration": {
+        "any_case": ["LLM Orchestration", "LLM-orkestrering"],
+        "exact_case": [],
+    },
+    "Agentic Frameworks": {
+        "any_case": ["Agentic Frameworks", "Agentic framework", "Agentic frameworks"],
+        "exact_case": [],
+    },
+    "LLM evaluation frameworks": {
+        "any_case": ["LLM evaluation frameworks", "LLM evaluation"],
+        "exact_case": [],
+    },
+    "LLMs": {
+        "any_case": ["Large Language Models", "Large Language Model"],
+        "exact_case": ["LLMs", "LLM"],
+    },
+    "RAG": {
+        "any_case": ["Retrieval-Augmented Generation", "Retrieval Augmented Generation"],
+        "exact_case": ["RAG"],
+    },
+    "NLP": {
+        "any_case": ["Natural Language Processing", "Språkteknologi"],
+        "exact_case": ["NLP"],
+    },
+    "MLOps fundamentals": {
+        "any_case": ["MLOps fundamentals", "MLOps"],
+        "exact_case": [],
+    },
+    "Vector databases": {
+        "any_case": ["Vector databases", "Vector database", "Vektordatabaser"],
+        "exact_case": [],
+    },
+    "Graph Databases": {
+        "any_case": ["Graph Databases", "Graph database", "Grafdatabaser"],
+        "exact_case": [],
+    },
+    "Frontend frameworks": {
+        "any_case": ["Frontend frameworks", "Front-end frameworks", "Frontend-ramverk"],
+        "exact_case": [],
+    },
+    "Data modelling": {
+        "any_case": [
+            "Data modelling", "Data modeling",
+            "Datamodellering", "Datamodell", "Datamodeller",
+        ],
+        "exact_case": [],
+    },
+    "A/B testing": {
+        "any_case": ["A/B testing", "A/B-testning", "A/B test", "AB testing"],
+        "exact_case": [],
+    },
+    "User experience": {
+        "any_case": ["User experience", "Användarupplevelse"],
+        "exact_case": ["UX"],
+    },
+    "SAP Sales/SD": {
+        "any_case": ["SAP Sales/SD", "SAP SD", "SAP Sales and Distribution"],
+        "exact_case": [],
+    },
+    "Order-to-Cash": {
+        "any_case": ["Order-to-Cash", "Order to Cash"],
+        "exact_case": ["O2C"],
     },
 }
