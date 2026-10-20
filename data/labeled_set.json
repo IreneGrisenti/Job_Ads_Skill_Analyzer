@@ -29877,21 +29877,6 @@
           },
           {
             "value": {
-              "start": 2448,
-              "end": 2455,
-              "text": "catalog",
-              "labels": [
-                "SKILL"
-              ]
-            },
-            "id": "qmE9XRxS5Q",
-            "from_name": "label",
-            "to_name": "text",
-            "type": "labels",
-            "origin": "manual"
-          },
-          {
-            "value": {
               "start": 2457,
               "end": 2465,
               "text": "Data Map",
