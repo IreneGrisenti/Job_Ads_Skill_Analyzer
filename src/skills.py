@@ -1,7 +1,6 @@
 """Collects dictionaries of skills needed to build Entity Ruler"""
 
 # TIER 1 - PHRASES, matched in ANY case
-# Taxonomy labels, copied as-is.
 
 TIER1_PHRASES = [
     "Systemarkitektur",  # New
