@@ -164,73 +164,59 @@ def build_canonical_to_aliases(alias_to_canonical):
     return result
 
 
-def review_ad(
-    ad_id, df, gold, pred, canonical_to_aliases, id_col="id", text_col="description"
-):
-    """Show one ad with the matched text highlighted.
-    green = correct, red = extra (FP), yellow = missed (FN).
-    Highlights every alias of a skill."""
+# Visuals cues on right/wrong skills detected/missed
+def review_ad(ad_id, df, gold, pred, aliases, id_col="id", text_col="description"):
+    """Show one ad with skills highlighted: green = correct, red = extra, yellow = missed."""
+
+    # Get the ad text and the skill sets. Fails if the id is not in the set
     ad_id = str(ad_id)
     row = df[df[id_col].astype(str) == ad_id]
     if row.empty:
         raise ValueError(f"No ad with id {ad_id}")
     text = row.iloc[0][text_col]
 
-    g, p = gold[ad_id], pred.get(ad_id, set())
+    # Identify gold and predicted skills
+    g = gold[ad_id]
+    p = pred.get(ad_id, set())
 
-    # surface form (casefolded) -> (label, canonical)
-    label_of = {}
-    for label, skills in {"tp": g & p, "fp": p - g, "fn": g - p}.items():
-        for canonical in skills:
-            forms = set(canonical_to_aliases.get(canonical, [])) | {
-                canonical.casefold()
-            }
-            for form in forms:
-                label_of[form] = (label, canonical)
+    # Label every skill
+    labels = {}
+    for skill in g & p:  # in both -> correct
+        labels[skill] = "tp"
+    for skill in p - g:  # only predicted -> extra
+        labels[skill] = "fp"
+    for skill in g - p:  # only in gold -> missed
+        labels[skill] = "fn"
 
-    # Longest forms first, so "Infrastructure as Code" wins over "Code"
-    forms_sorted = sorted(label_of, key=len, reverse=True)
-    escaped_text = html.escape(text)
+    # Give each written form of a skill (its name and its aliases) the same label
+    form_label = {}
+    for skill, label in labels.items():
+        form_label[skill.casefold()] = label
+        for alias in aliases.get(skill, []):
+            form_label[alias.casefold()] = label
 
-    if forms_sorted:
+    # Highlight every form found in the text
+    body = html.escape(text)  # make the text safe to show as HTML
+    if form_label:
+        longest_first = sorted(form_label, key=len, reverse=True)
         pattern = re.compile(
-            r"(?<!\w)("
-            + "|".join(re.escape(html.escape(f)) for f in forms_sorted)
-            + r")(?!\w)",
+            r"(?<!\w)(" + "|".join(map(re.escape, longest_first)) + r")(?!\w)",
             re.IGNORECASE,
         )
-
-        def mark(m):
-            label, canonical = label_of[html.unescape(m.group(0)).casefold()]
-            return (
-                f'<span title="{html.escape(canonical)}" '
-                f'style="background:{COLORS[label]};color:black;padding:0 2px;border-radius:3px">'
-                f"{m.group(0)}</span>"
-            )
-
-        body = pattern.sub(mark, escaped_text)
-    else:
-        body = escaped_text
-
-    # skills with no form found in the text
-    text_cf = text.casefold()
-    not_found = [
-        s
-        for s in sorted(g | p)
-        if not any(
-            f in text_cf for f in set(canonical_to_aliases.get(s, [])) | {s.casefold()}
+        body = pattern.sub(
+            lambda m: f'<span style="background:{COLORS[form_label[m.group(0).casefold()]]};'
+            f'color:black">{m.group(0)}</span>',
+            body,
         )
-    ]
 
     display(
         HTML(
             f"<b>Ad {ad_id}</b><br>"
             f"<span style='background:{COLORS['tp']};color:black'>correct</span> "
-            f"<span style='background:{COLORS['fp']};color:black'>extra (FP)</span> "
-            f"<span style='background:{COLORS['fn']};color:black'>missed (FN)</span> "
-            f"(hover over a highlight to see the canonical skill)<br><br>"
+            f"<span style='background:{COLORS['fp']};color:black'>extra</span> "
+            f"<span style='background:{COLORS['fn']};color:black'>missed</span><br><br>"
             f"<div style='white-space:pre-wrap'>{body}</div>"
         )
     )
-    print("gold:  ", sorted(g))
-    print("pred:  ", sorted(p))
+    print("gold:", sorted(g))
+    print("pred:", sorted(p))
