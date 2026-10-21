@@ -104,6 +104,7 @@ TIER1_PHRASES = [
     "Federation",
     "SAP-miljöer",
     "SAP-transaktioner",
+    "VMware",
 ]
 
 
@@ -1223,5 +1224,55 @@ TIER3_CUSTOM = {
     "Order-to-Cash": {
         "any_case": ["Order-to-Cash", "Order to Cash"],
         "exact_case": ["O2C"],
+    },
+        "vSphere": {
+        "any_case": ["vSphere", "VMware vSphere"],
+    },
+    "ITIL-processer": {
+        "any_case": ["ITIL-processer", "ITIL-processen", "ITIL processes", "ITIL process"],
+        "exact_case": ["ITIL"],
+    },
+    "Service Integration": {
+        "any_case": [
+            "Service Integration",
+            "Service Integration and Management",
+            "Service Integrator",
+            "tjänsteintegration",
+        ],
+        "exact_case": ["SIAM"],
+    },
+    "IT-miljöer": {
+        "any_case": ["IT-miljöer", "IT-miljön", "IT-miljö", "IT environments", "IT environment"],
+    },
+    "Microsoft-miljöer": {
+        "any_case": [
+            "Microsoftmiljöer",
+            "Microsoft-miljöer",
+            "Microsoftmiljö",
+            "Microsoft environments",
+            "Microsoft environment",
+        ],
+    },
+    "Continuous delivery": {
+        "any_case": ["continuous delivery", "kontinuerlig leverans"],
+    },
+    "Verification & Validation": {
+        "any_case": [
+            "Verification & Validation",
+            "Verification and Validation",
+            "verifiering och validering",
+        ],
+        "exact_case": ["V&V", "VVL", "V&V/VVL"],
+    },
+    "Self-service solutions": {
+        "any_case": [
+            "self-service solutions",
+            "self-service solution",
+            "self service solutions",
+            "självbetjäningslösningar",
+        ],
+    },
+    "Design Management Systems": {
+        "any_case": ["Design Management Systems", "Design Management System"],
     },
 }
