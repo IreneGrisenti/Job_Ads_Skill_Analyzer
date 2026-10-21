@@ -9,15 +9,7 @@ LABEL = "SKILL"
 
 # Baseline
 def baseline_extract_skills(text, skills):
-    """Find skills in a text using plain dictionary matching.
-
-    Args:
-        text: The job ad text.
-        skills: List of skill names to look for.
-
-    Returns:
-        List of the skills found.
-    """
+    """Find skills in a text using plain dictionary matching."""
     found_skills = []
 
     text = text.lower()

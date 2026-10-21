@@ -54,6 +54,7 @@ TIER1_PHRASES = [
     "FastAPI",
     "OpenJPA",
     "Toplink",
+    "Linux",
     "Amazon Linux",  # New
     "Arch Linux",  # New
     "FreeBSD",  # New
@@ -104,6 +105,12 @@ TIER1_PHRASES = [
     "SAP-miljöer",
     "SAP-transaktioner",
     "VMware",
+    "Zero Trust",
+    "DevSecOps", 
+    "PostgreSQL",
+    "Redshift",
+    "BigQuery",
+    "Aruba ClearPass",
 ]
 
 
@@ -155,7 +162,6 @@ TIER2_EXACT_CASE = {
     "4G": ["4G"],
     "5G": ["5G"],
     # added after validation
-    "API": ["API", "APIs"],
     "DOORS": ["DOORS"],
     "SAML": ["SAML"],
     "SCIM": ["SCIM"],
@@ -166,6 +172,10 @@ TIER2_EXACT_CASE = {
     "Hex": ["Hex"],
     "BTP": ["BTP"],
     "aATP": ["aATP"],
+    "C#": ["C#"], 
+    "XML": ["XML"],
+    "IREB": ["IREB"],
+    "NeRF": ["NeRF"],  
 }
 
 
@@ -341,7 +351,7 @@ TIER3_CUSTOM = {
         "exact_case": ["ECBA"],
     },  # New
     "TOGAF-certifiering": {
-        "any_case": ["TOGAF-certifiering"],
+        "any_case": ["TOGAF-certifiering",],
         "exact_case": ["TOGAF"],
     },  # New
     "Certified JavaScript Developer": {
@@ -704,6 +714,7 @@ TIER3_CUSTOM = {
     },
     "Windows": {
         "any_case": [
+            "Windows",
             "Microsoft Windows",
             "Windows OS",
             "Windows operativsystem",
@@ -713,7 +724,9 @@ TIER3_CUSTOM = {
     "Agile": {
         "any_case": [
             "Agile",
+            "Agila team",
             "Agilt arbetssätt",
+            "Agila arbetssätt",
             "Agila metoder",
             "Agile method",
         ],
@@ -887,12 +900,6 @@ TIER3_CUSTOM = {
         ],
         "exact_case": ["LOD"],
     },
-    "Leadership": {
-        "any_case": [
-            "Ledning",
-            "leadership",
-        ],
-    },
     "Machine learning": {
         "any_case": [
             "machine learning",
@@ -930,6 +937,9 @@ TIER3_CUSTOM = {
             "Molnteknik",
             "molnlösningar",
             "molninfrastruktur",
+            "molntjänster",   
+            "molntjänst",      
+            "cloud services",
         ],
     },
     "Offentlighets- och sekretesslagen (OSL)": {
@@ -1273,5 +1283,60 @@ TIER3_CUSTOM = {
     },
     "Design Management Systems": {
         "any_case": ["Design Management Systems", "Design Management System"],
+    },
+        "SQL Server": {
+        "any_case": ["SQL Server", "Microsoft SQL Server", "MS SQL Server"],
+        "exact_case": ["MSSQL"],
+    },
+    "ETL/ELT": {
+        "any_case": [
+            "ETL/ELT",
+            "ETL-processer",
+            "ELT-processer",
+            "ETL processes",
+            "ETL pipelines",
+            "data pipelines",
+            "datapipelines",
+        ],
+        "exact_case": ["ETL", "ELT"],
+    },
+    "CI/CD": {
+        "any_case": [
+            "CI/CD",
+            "CI/CD pipeline",
+            "CI/CD pipelines",
+            "CI/CD-pipeline",
+            "CI/CD-pipelines",
+            "CI/CD-processer",
+            "continuous integration",
+            "kontinuerlig integration",
+        ],
+    },
+    "Infrastructure as Code": {
+        "any_case": [
+            "Infrastructure as Code",
+            "Infrastructure-as-Code",
+            "Infrastruktur som kod",
+        ],
+        "exact_case": ["IaC"],
+    },
+    "Aruba Central": { 
+        "any_case": ["Aruba Central", "Aruba Center"],
+    },
+    "Aruba-miljöer": {
+        "any_case": ["Aruba-miljöer", "Aruba-miljön", "Aruba-miljö", "Aruba environments"],
+    },
+    "Cisco ISE": {
+        "any_case": ["Cisco ISE", "Cisco Identity Services Engine", "Cisco ICE"],
+    },
+    "Cisco Wireless": {
+        "any_case": ["Cisco Wireless", "Cisco WLAN"],
+    },
+    "Dataanalys": {
+        "any_case": ["Dataanalys", "data analysis", "data analytics"],
+    },
+     "API-design": {
+        "any_case": ["API design", "design av API:er", "REST API design"],
+        "exact_case": ["API", "APIs", "API:er"],
     },
 }
