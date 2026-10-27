@@ -130,18 +130,13 @@ def create_error_analysis(gold, pred):
 
 
 def summarize_errors(errors, alias_to_canonical, top_n=20):
-    """Top FP/FN and FN categories from the output of create_error_analysis."""
+    """Top FP/FN from the output of create_error_analysis."""
     known = set(alias_to_canonical.values())
     fp = Counter(s for e in errors for s in e["false_positives"])
     fn = Counter(s for e in errors for s in e["false_negatives"])
-    fn_types = Counter(
-        "not in dictionary" if s not in known else "in dictionary, not matched"
-        for s in fn.elements()
-    )
     return {
         "top_fp": fp.most_common(top_n),
         "top_fn": fn.most_common(top_n),
-        "fn_types": dict(fn_types),
     }
 
 
